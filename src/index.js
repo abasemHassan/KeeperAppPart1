@@ -10,3 +10,8 @@
 //https://l1pp6.csb.app/
 
 //HINT: You will need to study the classes in teh styles.css file to appy styling.
+import React from "react";
+import Reactdom from "react-dom";
+import App from "./components/App";
+
+Reactdom.render(<App />, document.getElementById("root"));
